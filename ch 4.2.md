@@ -4,7 +4,7 @@
 
 2. The number of **basic variables** equals the the number of functional constraints **(= equations)**.
 
-Therefore, **the number of nonbasic variables** equals the total of variables minus the number of functional constraints.
+   Therefore, **the number of nonbasic variables** equals the total of variables minus the number of functional constraints.
 
 3. The nonbasic variables are set equal to zero.
 
