@@ -78,5 +78,13 @@ Step 3: Solve for the new BF solution by using **elementary row operartions** (m
 
 
 
+# Iteration 2 for the Example and the Resulting Optimal Solution
+![image](https://github.com/sseinn/Operation-Research/assets/143159192/a3a55def-0606-4c16-ba4a-7a46e0a8d31f)
 
+Following the instructions for steps 1 and 2, we find x1 as the entering basic variable and x5 as the leaving basic variable,a s shown in Talble 4.7.
 
+For step 3, we start by dividing the pivot row (row 3) in Talbe 4.7 by the pivot number (3). Next, we add to row 0 the product, 3 times the new row 3. Then we substract the new row 3 from row 2.
+
+We now have the set of tableaux shown in Table 4.8. There fore, the new BF solution is (2, 6, 2, 0, 0), with Z = 36. 
+
+![image](https://github.com/sseinn/Operation-Research/assets/143159192/bb778be1-538a-4f5d-8351-912deb49a32b)
