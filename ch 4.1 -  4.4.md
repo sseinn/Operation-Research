@@ -1,3 +1,5 @@
+# ch 4.1 - 4.4
+
 # A basic solution has the following properties
 
 1. Each variable is designated as either a nonbasic variable or a basic variable.
