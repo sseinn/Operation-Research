@@ -1,4 +1,4 @@
-# A basic solution has the followting properties
+# A basic solution has the following properties
 
 1. Each variable is designated as either a nonbasic variable or a basic variable.
 
@@ -34,4 +34,16 @@ This implies that all but **one of their basic variables are the same**, althoug
 
 
 Consequently, **moving from the current BF solution to an adjacent one** involves switching one variable from nonbasic to basic and vice versa for one other.
+
+# entering basic variable
+
+At any iteration of the simplex method, the purpose of step 1 is to choose one nonbasic variable to increase from zero (while the values of the basic variables are adjusted to continue satisfying the system of equations). Increasing this nonbasic variable from zero wil convert it to a basic vatiable for the next BF solution. Therefore, this variable is called **entering basic variable** for the current iteration (because it is entering the basis).
+
+# minimun ratio test
+
+These calculations are referred to as the **minimun ratio test**. The objective of this test is to determine which basic variable drops to zero first as the entering basic variable is increased. 
+
+# leaving basic variable
+
+At any iteration of the simplex method, step 2 uses the minimun ratio test to determine which basic variable drops to zero first as the entering basic variable is increased. Decreasing this basic variable o zero will convert it to a nonbasic variable for the nest BF solution. Therefore, this variable is called the **leaving basic variable** for the current iteration (because it is leaving the basis).
 
