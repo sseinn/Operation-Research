@@ -114,6 +114,6 @@ We now have the set of tableaux shown in Table 4.8. There fore, the new BF solut
   
       3. leaving basic variable이 있는 row는 pivot row가 됨
   
-   7. Iteration은 maximize 문제에서 objective function의 coefficient가 > 0일때까지 iteration 반복
+7. Iteration은 maximize 문제에서 objective function의 coefficient가 > 0일때까지 iteration 반복
   
    
